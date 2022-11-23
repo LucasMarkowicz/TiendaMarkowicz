@@ -24,3 +24,35 @@ a {
     background: black;
   }
 }
+
+
+.notification {
+  right: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+a:hover {
+  transform: translate(0, -2px);
+}
+
+.notification .badge {
+  position: absolute;
+  top: -0.5px;
+  right: -0.5px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+}
+
+.logoApple{
+  width: 21.67px;
+  height: 26.62px;
+  float: right;
+  margin-left: 10px;
+  
+}
